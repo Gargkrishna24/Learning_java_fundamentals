@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="Learned about JDK, JRE,JVM,JIT">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +171,7 @@
       <workItem from="1744110109209" duration="196000" />
       <workItem from="1749439381083" duration="1363000" />
       <workItem from="1749526492319" duration="21000" />
-      <workItem from="1751545982702" duration="4720000" />
+      <workItem from="1751545982702" duration="5349000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
@@ -202,7 +201,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java</url>
-          <line>31</line>
+          <line>41</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">

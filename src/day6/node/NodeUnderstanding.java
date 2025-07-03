@@ -28,6 +28,16 @@ public class NodeUnderstanding {
         System.out.println(header.data);
     }
 
+    static int checkLength(NodeUnderstanding header){
+        int count = 0;
+        while(header != null){
+            count++;
+            header=header.next;
+        }
+        return count;
+
+    }
+
     public static void main(String[] args) {
         NodeUnderstanding nodeOne = new NodeUnderstanding(5);
         NodeUnderstanding nodeTwo = new NodeUnderstanding(10);
@@ -36,6 +46,7 @@ public class NodeUnderstanding {
         nodeOne.next=nodeTwo;
         nodeTwo.next=nodeThree;
         nodeThree.next=nodeFour;
+//        int count = 0;
 //        NodeUnderstanding header = nodeOne;
 //        System.out.println(header);
 //        System.out.println(nodeOne);
@@ -48,6 +59,6 @@ public class NodeUnderstanding {
 //        }
 
         displayNodesUsingRecursion(nodeOne);
-
+        System.out.println(checkLength(nodeOne));
     }
 }
