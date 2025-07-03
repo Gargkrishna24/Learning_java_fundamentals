@@ -16,6 +16,18 @@ public class NodeUnderstanding {
         this.data=data;
     }
 
+    static void displayNodes(NodeUnderstanding header){
+        while(header!=null){
+            System.out.println(header.data);
+            header = header.next;
+        }
+    }
+    static void displayNodesUsingRecursion(NodeUnderstanding header){
+        if(header==null) return;
+        displayNodesUsingRecursion(header.next);
+        System.out.println(header.data);
+    }
+
     public static void main(String[] args) {
         NodeUnderstanding nodeOne = new NodeUnderstanding(5);
         NodeUnderstanding nodeTwo = new NodeUnderstanding(10);
@@ -24,13 +36,18 @@ public class NodeUnderstanding {
         nodeOne.next=nodeTwo;
         nodeTwo.next=nodeThree;
         nodeThree.next=nodeFour;
-        NodeUnderstanding header = nodeOne;
-        System.out.println(header);
-        System.out.println(nodeOne);
-        while(header.next!=null) {
-            System.out.println(header.data);
-            header = header.next;
-        }
+//        NodeUnderstanding header = nodeOne;
+//        System.out.println(header);
+//        System.out.println(nodeOne);
+        displayNodes(nodeOne);
+
+        // Displaying Nodes using While Loop
+//        while(header.next!=null) {
+//            System.out.println(header.data);
+//            header = header.next;
+//        }
+
+        displayNodesUsingRecursion(nodeOne);
 
     }
 }
