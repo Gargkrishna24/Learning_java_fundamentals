@@ -24,10 +24,13 @@ public class NodeUnderstanding {
         nodeOne.next=nodeTwo;
         nodeTwo.next=nodeThree;
         nodeThree.next=nodeFour;
+        NodeUnderstanding header = nodeOne;
+        System.out.println(header);
         System.out.println(nodeOne);
-        System.out.println(nodeTwo);
-        System.out.println(nodeThree);
-        System.out.println(nodeFour);
+        while(header.next!=null) {
+            System.out.println(header.data);
+            header = header.next;
+        }
 
     }
 }
