@@ -53,5 +53,6 @@ class Main{
 //        list.display();
         list.insertAt(55,2);
         list.display();
+        list.getElement(8);
     }
 }

@@ -83,4 +83,20 @@ public class SinglyLinkedList {
         temp.next=newNode;
     }
 
+    public void  getElement(int index){
+        if(index < 0  && index > sizeOfArray() ) System.out.println("invalid Index !! ");
+        Node temp = header;
+        for (int i = 0; i < index; i++) {
+            temp=temp.next;
+        }
+        System.out.println(temp.data);
+    }
+    public void deleteNode(int index){
+        Node temp = header;
+        for (int i = 0; i < index; i++) {
+            temp=temp.next;
+        }
+        temp.next = temp.next.next;
+        size--;
+    }
 }
