@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="Learned about JDK, JRE,JVM,JIT">
-      <change beforePath="$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/node/singlyLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/node/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NodeUnderstanding">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.DataTypes" />
       <module name="Learning_java_fundamentals" />
@@ -131,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.NodeUnderstanding" />
         <item itemvalue="Java Scratch.dfstraversal" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DataTypes" />
       </list>
     </recent_temporary>
@@ -172,6 +175,11 @@
       <workItem from="1749439381083" duration="1363000" />
       <workItem from="1749526492319" duration="21000" />
       <workItem from="1751545982702" duration="5349000" />
+      <workItem from="1751913508906" duration="1161000" />
+      <workItem from="1751943743982" duration="39000" />
+      <workItem from="1751974085841" duration="644000" />
+      <workItem from="1751974883721" duration="78000" />
+      <workItem from="1751974982588" duration="11080000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
@@ -190,33 +198,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learned about JDK, JRE,JVM,JIT" />
     <option name="LAST_COMMIT_MESSAGE" value="Learned about JDK, JRE,JVM,JIT" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java</url>
-          <line>3</line>
-          <properties field="data" class="day6.node.NodeUnderstanding" />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/day6/node/NodeUnderstanding.java</url>
-          <line>4</line>
-          <properties field="next" class="day6.node.NodeUnderstanding" />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
