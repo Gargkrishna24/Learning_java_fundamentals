@@ -26,9 +26,10 @@ public class SinglyLinkedList {
 
     public int sizeOfArray() {
         int count = 0;
-        while (header != null) {
+        Node temp = header; // use temp instead of modifying header
+        while (temp != null) {
             count++;
-            header = header.next;
+            temp = temp.next;
         }
         return count;
     }
