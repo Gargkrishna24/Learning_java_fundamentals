@@ -72,6 +72,10 @@ public class SinglyLinkedList {
             insertAtEnd(data);
             return;
         }
+        else if(index==0){
+            insertAtBeginning(data);
+        }
+        else if(index<0 && index > sizeOfArray()) System.out.println("invalid index !!");
         for (int i = 0; i <= index-1; i++) {
             temp=temp.next;
         }
