@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="create doubly Link dlist Node">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +206,7 @@
       <workItem from="1752003906347" duration="1068000" />
       <workItem from="1752005042459" duration="1686000" />
       <workItem from="1752029050137" duration="670000" />
-      <workItem from="1752029786246" duration="6514000" />
+      <workItem from="1752029786246" duration="8313000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
@@ -269,10 +266,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="6" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

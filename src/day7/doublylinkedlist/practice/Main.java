@@ -8,6 +8,7 @@ public class Main {
         list.addAtFirst(8);
         list.addAtFirst(7);
         list.addAtFirst(6);
+        list.addAtLast(99);
         list.display();
     }
 }

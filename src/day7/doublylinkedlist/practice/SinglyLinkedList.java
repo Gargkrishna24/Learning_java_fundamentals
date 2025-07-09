@@ -1,18 +1,18 @@
 package day7.doublylinkedlist.practice;
 
-public class SinglyLinkedList implements List{
-    private Node header ;
-    private Node tail ;
-    private int size ;
+public class SinglyLinkedList implements List {
+    private Node header;
+    private Node tail;
+    private int size;
 
-    SinglyLinkedList(){
+    SinglyLinkedList() {
         this.size = 0;
         this.header = null;
         this.tail = null;
     }
 
     @Override
-    public int  size() {
+    public int size() {
         return size;
     }
 
@@ -22,7 +22,7 @@ public class SinglyLinkedList implements List{
 
     @Override
     public void displayUsingRecursion(Node header) {
-        if(header == null) return;
+        if (header == null) return;
         System.out.println(header.data);
         displayUsingRecursion(header.next);
     }
@@ -35,11 +35,10 @@ public class SinglyLinkedList implements List{
     @Override
     public void addAtFirst(int data) {
         Node temp = new Node(data);
-        if(size()==0){
-            header=temp;
-            tail = temp ;
-        }
-        else{
+        if (size() == 0) {
+            header = temp;
+            tail = temp;
+        } else {
             temp.next = header;
             header = temp;
 
@@ -49,6 +48,14 @@ public class SinglyLinkedList implements List{
 
     @Override
     public void addAtLast(int data) {
+        Node temp = new Node(data);
+        if (size() == 0) {
+
+        } else {
+            tail.next = temp;
+            tail=temp;
+        }
+        size++;
 
     }
 
@@ -64,9 +71,9 @@ public class SinglyLinkedList implements List{
 
     @Override
     public void display() {
-        while(header!=null){
+        while (header != null) {
             System.out.println(header.data);
-            header=header.next;
+            header = header.next;
         }
 
     }
