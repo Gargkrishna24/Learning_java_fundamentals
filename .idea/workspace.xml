@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="Learned about JDK, JRE,JVM,JIT">
+    <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="create doubly Link dlist Node">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/node/singlyLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/node/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,7 +49,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2qd0lukhIKRVgu0SkvptVjnkf4u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,8 +61,10 @@
     "Application.DataTypes.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NodeUnderstanding.executor": "Run",
+    "Application.day7.doublylinkedlist.practice.Main.executor": "Run",
     "Java Scratch.dfstraversal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -75,7 +83,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.day7.doublylinkedlist.practice.Main">
     <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.DataTypes" />
       <module name="Learning_java_fundamentals" />
@@ -129,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day7.doublylinkedlist.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.doublylinkedlist.practice.Main" />
+      <module name="Learning_java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.doublylinkedlist.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dfstraversal" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dfstraversal" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.java" />
@@ -138,9 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NodeUnderstanding" />
+        <item itemvalue="Application.day7.doublylinkedlist.practice.Main" />
         <item itemvalue="Java Scratch.dfstraversal" />
+        <item itemvalue="Application.NodeUnderstanding" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DataTypes" />
       </list>
     </recent_temporary>
@@ -183,7 +205,11 @@
       <workItem from="1751943743982" duration="39000" />
       <workItem from="1751974085841" duration="644000" />
       <workItem from="1751974883721" duration="78000" />
-      <workItem from="1751974982588" duration="12259000" />
+      <workItem from="1751974982588" duration="14409000" />
+      <workItem from="1752003906347" duration="1068000" />
+      <workItem from="1752005042459" duration="1686000" />
+      <workItem from="1752029050137" duration="670000" />
+      <workItem from="1752029786246" duration="6514000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
@@ -193,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734983681266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create doubly Link dlist Node">
+      <option name="closed" value="true" />
+      <created>1752004631515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752004631515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +235,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learned about JDK, JRE,JVM,JIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned about JDK, JRE,JVM,JIT" />
+    <MESSAGE value="Add . some changes" />
+    <MESSAGE value="create doubly Link dlist Node" />
+    <option name="LAST_COMMIT_MESSAGE" value="create doubly Link dlist Node" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
