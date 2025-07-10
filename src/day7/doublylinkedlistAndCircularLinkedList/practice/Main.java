@@ -1,5 +1,5 @@
-package day7.doublylinkedlist.practice;
-import day7.doublylinkedlist.practice.SinglyLinkedList;
+package day7.doublylinkedlistAndCircularLinkedList.practice;
+
 public class Main {
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();

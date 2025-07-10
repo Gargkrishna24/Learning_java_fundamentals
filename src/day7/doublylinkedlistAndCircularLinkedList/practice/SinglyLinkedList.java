@@ -1,4 +1,4 @@
-package day7.doublylinkedlist.practice;
+package day7.doublylinkedlistAndCircularLinkedList.practice;
 
 public class SinglyLinkedList implements List {
     private Node header;
