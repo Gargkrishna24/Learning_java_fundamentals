@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="create doubly Link dlist Node">
-      <change afterPath="$PROJECT_DIR$/src/day8/hashmap/FindingTwoNumbersWithSpecificSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/node/singlyLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/node/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" afterDir="false" />
     </list>
@@ -211,7 +211,9 @@
       <workItem from="1752052216589" duration="2484000" />
       <workItem from="1752056423356" duration="141000" />
       <workItem from="1752089913528" duration="217000" />
-      <workItem from="1752127009427" duration="2121000" />
+      <workItem from="1752127009427" duration="2988000" />
+      <workItem from="1752145353266" duration="11000" />
+      <workItem from="1752157736030" duration="2312000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
@@ -278,15 +280,6 @@
           <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java</url>
           <line>36</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java</url>
-          <line>80</line>
-          <properties class="day7.doublylinkedlist.practice.SinglyLinkedList" method="deleteNode">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

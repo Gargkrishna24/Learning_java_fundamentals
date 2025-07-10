@@ -29,15 +29,30 @@ public class SinglyLinkedList implements List {
 
     @Override
     public void add(int data, int index) {
+        if(index==size){
+            addAtLast(data);
+            return;
+        }
+        if(index==0){
+            addAtFirst(data);
+            return;
+        }
+        Node temp = header;
+        Node newNode = new Node(data);
+        for (int i = 0; i < index-1 ; i++) {
+            temp=temp.next;
+        }
+        newNode.next = temp.next;
+        temp.next = newNode;
 
     }
 
     @Override
     public void addAtFirst(int data) {
         Node temp = new Node(data);
-        if (size() == 0) {
-            header = temp;
-            tail = temp;
+        if (size == 0) {
+            header=temp ;
+             tail=temp;
         } else {
             temp.next = header;
             header = temp;
@@ -49,8 +64,9 @@ public class SinglyLinkedList implements List {
     @Override
     public void addAtLast(int data) {
         Node temp = new Node(data);
-        if (size() == 0) {
-
+        if (size == 0) {
+            header=temp;
+            tail=temp;
         } else {
             tail.next = temp;
             tail = temp;

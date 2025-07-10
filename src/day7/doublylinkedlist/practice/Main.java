@@ -9,7 +9,8 @@ public class Main {
         list.addAtFirst(7);
         list.addAtFirst(6);
         list.addAtLast(99);
-        list.display();
         list.getElement(3);
+        list.add(5,6);
+        list.display();
     }
 }
