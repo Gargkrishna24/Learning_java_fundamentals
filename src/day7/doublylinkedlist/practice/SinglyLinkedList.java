@@ -53,7 +53,7 @@ public class SinglyLinkedList implements List {
 
         } else {
             tail.next = temp;
-            tail=temp;
+            tail = temp;
         }
         size++;
 
@@ -61,7 +61,22 @@ public class SinglyLinkedList implements List {
 
     @Override
     public void getElement(int index) {
-
+        Node temp = this.header;
+//        System.out.println(header.hashCode());
+        if (index >= size() || index < 0) {
+            System.out.println("Invalid index !!");
+            return;
+        } else {
+            System.out.println("head "+ header);
+            for (int i = 0; i < index; i++) {
+                temp = temp.next;
+            }
+        }
+        if (temp != null) {
+            System.out.println("Searched Element: " + temp.data);
+        } else {
+            System.out.println("Element not found!");
+        }
     }
 
     @Override
@@ -71,9 +86,10 @@ public class SinglyLinkedList implements List {
 
     @Override
     public void display() {
-        while (header != null) {
-            System.out.println(header.data);
-            header = header.next;
+        Node temp = header;
+        while (temp != null) {
+            System.out.println(temp.data);
+            temp = temp.next;
         }
 
     }

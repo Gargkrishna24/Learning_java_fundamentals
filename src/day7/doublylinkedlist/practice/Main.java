@@ -10,5 +10,6 @@ public class Main {
         list.addAtFirst(6);
         list.addAtLast(99);
         list.display();
+        list.getElement(3);
     }
 }
