@@ -14,7 +14,7 @@ public interface List {
 
     void getElement(int index);
 
-    void deleteNode(int data);
+    void deleteNode(int index);
 
     void display();
 

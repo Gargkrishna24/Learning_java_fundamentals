@@ -54,6 +54,7 @@ public class SinglyLinkedList {
             temp = temp.next;
         }
     }
+
     public void insertAtBeginning(int data){
         Node node = new Node(data);
         if(header == null ){
@@ -65,6 +66,7 @@ public class SinglyLinkedList {
         }
         size++;
     }
+
     public void insertAt(int data , int index){
         Node newNode = new Node(data);
         Node temp = header;
@@ -91,12 +93,34 @@ public class SinglyLinkedList {
         }
         System.out.println(temp.data);
     }
-    public void deleteNode(int index){
-        Node temp = header;
-        for (int i = 0; i < index; i++) {
-            temp=temp.next;
+
+
+    public void deleteNode(int index) {
+        if (index < 0 || index >= size) {
+            System.out.println("Invalid index!");
+            return;
         }
-        temp.next = temp.next.next;
+
+        if (index == 0) {
+            header = header.next;
+            if (header == null) {
+                tail = null; // list became empty
+            }
+        } else {
+            Node temp = header;
+            for (int i = 0; i < index - 1; i++) {
+                temp = temp.next;
+            }
+
+            temp.next = temp.next.next;
+
+            // If the deleted node was the tail
+            if (temp.next == null) {
+                tail = temp;
+            }
+        }
+
         size--;
     }
+
 }

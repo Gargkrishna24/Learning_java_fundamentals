@@ -16,9 +16,6 @@ public class SinglyLinkedList implements List {
         return size;
     }
 
-    public int getSize() {
-        return size;
-    }
 
     @Override
     public void displayUsingRecursion(Node header) {
@@ -96,9 +93,30 @@ public class SinglyLinkedList implements List {
     }
 
     @Override
-    public void deleteNode(int data) {
+    public void deleteNode(int index) {
+        if(index==0){
+            header = header.next;
+        }
+        else if(index==size-1){
+            Node temp = header;
+            for (int i = 0; i < size - 1; i++) {
+                temp=temp.next;
+            }
+            temp.next = null;
+            tail = temp;
+        }else {
+            Node temp = header;
+
+            for (int i = 0; i < index - 1; i++) {
+                temp = temp.next;
+            }
+            temp.next = temp.next.next;
+        }
+       size--;
+
 
     }
+
 
     @Override
     public void display() {
