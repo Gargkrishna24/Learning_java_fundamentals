@@ -76,11 +76,10 @@ public class SinglyLinkedList implements List {
     public void getElement(int index) {
         Node temp = this.header;
 //        System.out.println(header.hashCode());
-        if (index >= size() || index < 0) {
+        if (index >= size || index < 0) {
             System.out.println("Invalid index !!");
             return;
         } else {
-            System.out.println("head "+ header);
             for (int i = 0; i < index; i++) {
                 temp = temp.next;
             }

@@ -7,10 +7,8 @@ public class Main {
         list.addAtFirst(9);
         list.addAtFirst(8);
         list.addAtFirst(7);
-        list.addAtFirst(6);
-        list.addAtLast(99);
-        list.getElement(3);
-        list.add(5,6);
+
+        list.deleteNode(2);
         list.display();
     }
 }

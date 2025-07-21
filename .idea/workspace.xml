@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="create doubly Link dlist Node">
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/doublyLinkedList/DoublyListInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/doublyLinkedList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/doublyLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/foodfest/FoodFest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/stack/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/stack/StackInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlist/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +64,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DataTypes.executor": "Run",
+    "Application.FoodFest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Node.executor": "Run",
     "Application.NodeUnderstanding.executor": "Run",
     "Application.day7.doublylinkedlist.practice.Main.executor": "Run",
     "Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main.executor": "Run",
+    "Application.day7.doublylinkedlistAndCircularLinkedList.practice.Main.executor": "Debug",
+    "Java Scratch.Scratch.executor": "Run",
     "Java Scratch.dfstraversal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -89,13 +93,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main">
-    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.DataTypes" />
+  <component name="RunManager" selected="Java Scratch.Scratch">
+    <configuration name="FoodFest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.foodfest.FoodFest" />
       <module name="Learning_java_fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2.*" />
+          <option name="PATTERN" value="day9.foodfest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,31 +108,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Learning_java_fundamentals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Node" />
+      <option name="MAIN_CLASS_NAME" value="day9.stack.Main" />
       <module name="Learning_java_fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeUnderstanding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.node.NodeUnderstanding" />
-      <module name="Learning_java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day6.node.*" />
+          <option name="PATTERN" value="day9.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,20 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dfstraversal" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfstraversal" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.java" />
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_18.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main" />
-        <item itemvalue="Application.Node" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.day7.doublylinkedlistAndCircularLinkedList.practice.Main" />
-        <item itemvalue="Java Scratch.dfstraversal" />
-        <item itemvalue="Application.NodeUnderstanding" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FoodFest" />
+        <item itemvalue="Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +211,16 @@
       <workItem from="1752089913528" duration="217000" />
       <workItem from="1752127009427" duration="2988000" />
       <workItem from="1752145353266" duration="11000" />
-      <workItem from="1752157736030" duration="15545000" />
+      <workItem from="1752157736030" duration="16012000" />
+      <workItem from="1752250461106" duration="105000" />
+      <workItem from="1752724799034" duration="2553000" />
+      <workItem from="1752730328866" duration="2757000" />
+      <workItem from="1752941563767" duration="587000" />
+      <workItem from="1753006934207" duration="571000" />
+      <workItem from="1753031131507" duration="14000" />
+      <workItem from="1753031159588" duration="46000" />
+      <workItem from="1753031281991" duration="168000" />
+      <workItem from="1753067291707" duration="3801000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
@@ -286,14 +279,94 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="23" />
+          <line>95</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/doublyLinkedList/Main.java</url>
