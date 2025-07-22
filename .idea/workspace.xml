@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="create doubly Link dlist Node">
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/foodfest/FoodFest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/stack/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/stack/StackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/inhertance/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/inhertance/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/inhertance/animal/humans/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/inhertance/animal/humans/Grandparents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/inhertance/animal/humans/Parents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/inhertance/animal/notes.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/doublylinkedlistAndCircularLinkedList/practice/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="editable-svg" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +64,7 @@
   "keyToString": {
     "Application.DataTypes.executor": "Run",
     "Application.FoodFest.executor": "Run",
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Node.executor": "Run",
     "Application.NodeUnderstanding.executor": "Run",
@@ -93,7 +93,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="FoodFest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day9.foodfest.FoodFest" />
       <module name="Learning_java_fundamentals" />
@@ -107,25 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Learning_java_fundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day9.stack.Main" />
       <module name="Learning_java_fundamentals" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day9.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main" />
-      <module name="Learning_java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.day7.doublylinkedlistAndCircularLinkedList.practice.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FoodFest" />
-        <item itemvalue="Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +215,8 @@
       <workItem from="1753031159588" duration="46000" />
       <workItem from="1753031281991" duration="168000" />
       <workItem from="1753067291707" duration="3801000" />
+      <workItem from="1753084071203" duration="4108000" />
+      <workItem from="1753153665341" duration="7328000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
