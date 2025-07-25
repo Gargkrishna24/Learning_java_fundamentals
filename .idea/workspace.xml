@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a1889da-cbc5-4da2-a0b2-3efd79563f46" name="Changes" comment="create doubly Link dlist Node">
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/warehouse/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/warehouse/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/warehouse/Groceries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/warehouse/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/warehouse/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generics/warehouse/WareHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/BooksCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/ClothingCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/DiscountServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/GadgetsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/OnlineMarketPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/generics/dynamicmarketplace/ProductCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="editable-svg" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,57 +60,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DataTypes.executor": "Run",
-    "Application.FoodFest.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Node.executor": "Run",
-    "Application.NodeUnderstanding.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.day10.generics.warehouse.Test.executor": "Run",
-    "Application.day13.encapsulation.compiletimepolymorphism.Test.executor": "Run",
-    "Application.day14.practice.inheritance.animalheirarchy.Test.executor": "Run",
-    "Application.day7.doublylinkedlist.practice.Main.executor": "Run",
-    "Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main.executor": "Run",
-    "Application.day7.doublylinkedlistAndCircularLinkedList.practice.Main.executor": "Debug",
-    "Java Scratch.Scratch.executor": "Run",
-    "Java Scratch.dfstraversal.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FoodFest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Node.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeUnderstanding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day10.generics.warehouse.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day13.encapsulation.compiletimepolymorphism.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day14.practice.inheritance.animalheirarchy.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day7.doublylinkedlist.practice.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day7.doublylinkedlistAndCircularLinkedList.doublyLinkedList.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day7.doublylinkedlistAndCircularLinkedList.practice.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.dfstraversal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.day10.generics.warehouse.Test">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Learning_java_fundamentals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.encapsulation.runtimepolymorphism.Test" />
+}</component>
+  <component name="RunManager" selected="Application.OnlineMarketplace">
+    <configuration name="OnlineMarketplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.generics.dynamicmarketplace.OnlineMarketplace" />
       <module name="Learning_java_fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.encapsulation.runtimepolymorphism.*" />
+          <option name="PATTERN" value="day10.generics.dynamicmarketplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +150,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_19.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnlineMarketplace" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.day10.generics.warehouse.Test" />
         <item itemvalue="Application.day14.practice.inheritance.animalheirarchy.Test" />
         <item itemvalue="Application.day13.encapsulation.compiletimepolymorphism.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,9 @@
       <workItem from="1753195661177" duration="204000" />
       <workItem from="1753238901760" duration="9836000" />
       <workItem from="1753272941726" duration="34000" />
-      <workItem from="1753328793778" duration="3810000" />
+      <workItem from="1753328793778" duration="5322000" />
+      <workItem from="1753336574368" duration="2017000" />
+      <workItem from="1753411535720" duration="7643000" />
     </task>
     <task id="LOCAL-00001" summary="Learned about JDK, JRE,JVM,JIT">
       <option name="closed" value="true" />
