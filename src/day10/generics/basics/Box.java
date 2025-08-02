@@ -1,18 +1,27 @@
 package day10.generics.basics;
 
-public class Box<T> {
-    private T value;
+public class Box {
+    private int value;
+    private String name ;
 
-    public T getValue() {
+    public int getValue() {
         return value;
     }
 
-    public void setValue(T value) {
+    public void setValue(int value) {
         this.value = value;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public static void main(String[] args) {
-        Box<Integer> box = new Box<>();
+        Box box = new Box();
         box.setValue(6);
         System.out.println(box.getValue());
     }
